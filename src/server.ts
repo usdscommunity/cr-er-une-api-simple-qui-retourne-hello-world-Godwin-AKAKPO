@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req: Request, res: Response) =>{
-    res.send("Hello world. Il s'agit de mon premier API en Esspress.js" );
+    res.send("Hello world.");
 });
 
 app.listen(PORT, () =>{
